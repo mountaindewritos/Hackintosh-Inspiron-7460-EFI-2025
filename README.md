@@ -1,14 +1,18 @@
-**Dell Inspiron 7460 Sonoma EFI with Unsupported BCM Wifi cards**
+**Dell Inspiron 7460 Sonoma, Sequioa and Tahoe (Pending OCLP new vversion) EFI with Unsupported BCM Wifi cards**
 
-_This only works on Sonoma 14.3.1 and below as 14.4 blocked any patches._
+_For Sequioa installations and later, choose the Tahoe EFI as it has a Broadcom legacy card patchfix. For Sonoma 14.3.1 and below choose the Sonoma EFI (v1.2.0)._
 
+***For Sequioa and Tahoe Build***
+This was made from the ground up to since the previous efi builds has a ton of kexts for compatibility, hence the DSDT, kext patches are only few resulting to a muc faster, reliable and stable installation.
+
+***For SONOMA Builds***
 I already created CSR-ACTIVE-CONFIG codes for you to patch root easily on OCLP (SIP Disable), MinKernel Values for Wi-FI Kexts as well as Blocking com.apple.iokit.skywalkfamily on OCConfigurator.
 
 Special Thanks to HowieHye who laid the ground work for the DSDT patches for Dell Inspiron 7460 but it's only for Ventura RC. I already included his patches to this build.
 
 https://github.com/HowieHye/Dell-7460-Hackintosh-OC
 
-Instructions:
+***Instructions:***
 1. Open OpenCore Configurator and mount your EFI partition
 2. Delete EFI Folder and Replace it with the EFI that you downloaded
 
