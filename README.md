@@ -1,8 +1,6 @@
 **Dell Inspiron 7460 Sonoma, Sequioa and Tahoe (Pending OCLP new version) EFI with Unsupported BCM Wifi cards**
 
-_For Sequioa installations and later, choose the Tahoe EFI as it has a Broadcom legacy card patchfix. For Sonoma 14.3.1 and below choose the Sonoma EFI (v1.2.0)._
-
-***For Sequioa and Tahoe Build***
+***For Sequioa and Tahoe Build use v1.5.0***
 
 This was made from the ground up with the help of OC-Simplify since the previous EFI builds had a ton of kexts for compatibility making it a bit bloated. In this EFI build the DSDT, kext patches are only few resulting to a much faster, reliable and stable boot.
 You have to add other kexts yourselves to suit your macOS experience. Wait for the newer OCLP release as 2.4.0 detects Tahoe as Unsupported OS.
@@ -14,9 +12,9 @@ You have to add other kexts yourselves to suit your macOS experience. Wait for t
 <img width="746" height="643" alt="Screenshot 2025-11-25 at 9 20 05 PM" src="https://github.com/user-attachments/assets/6089abff-ff71-4395-8237-a3f261d69953" />
 
 
-***For SONOMA Builds***
+***For SONOMA Builds use v1.2.0***
 
-I already created CSR-ACTIVE-CONFIG codes for you to patch root easily on OCLP (SIP Disable), MinKernel Values for Wi-FI Kexts as well as Blocking com.apple.iokit.skywalkfamily on OCConfigurator.
+I already created CSR-ACTIVE-CONFIG codes for you to patch root easily on OCLP (SIP Disable), MinKernel Values for Wi-FI Kexts as well as Blocking com.apple.iokit.skywalkfamily on OC Auxiliary Tools.
 
 Special Thanks to HowieHye who laid the ground work for the DSDT patches for Dell Inspiron 7460 but it's only for Ventura RC. I already included his patches to this build.
 
