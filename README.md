@@ -7,7 +7,11 @@ _For Sequioa installations and later, choose the Tahoe EFI as it has a Broadcom 
 This was made from the ground up with the help of OC-Simplify since the previous EFI builds had a ton of kexts for compatibility making it a bit bloated. In this EFI build the DSDT, kext patches are only few resulting to a much faster, reliable and stable boot.
 You have to add other kexts yourselves to suit your macOS experience. Wait for the newer OCLP release as 2.4.0 detects Tahoe as Unsupported OS.
 
-<img width="2048" height="1536" alt="image" src="https://github.com/user-attachments/assets/4751cefa-22c2-424b-9b8b-377a8d1f4b96" />
+<img width="850" height="638" alt="image" src="https://github.com/user-attachments/assets/4751cefa-22c2-424b-9b8b-377a8d1f4b96" />
+
+<img width="1920" height="1080" alt="Screenshot 2025-11-25 at 9 19 29 PM" src="https://github.com/user-attachments/assets/9b95354d-c3e9-4900-80dd-b9be402b77e0" />
+
+<img width="746" height="643" alt="Screenshot 2025-11-25 at 9 20 05 PM" src="https://github.com/user-attachments/assets/6089abff-ff71-4395-8237-a3f261d69953" />
 
 
 ***For SONOMA Builds***
