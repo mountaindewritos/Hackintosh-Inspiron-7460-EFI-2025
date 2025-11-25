@@ -4,7 +4,8 @@ _For Sequioa installations and later, choose the Tahoe EFI as it has a Broadcom 
 
 ***For Sequioa and Tahoe Build***
 
-This was made from the ground up to since the previous efi builds has a ton of kexts for compatibility, hence the DSDT, kext patches are only few resulting to a muc faster, reliable and stable installation.
+This was made from the ground up since the previous EFI builds had a ton of kexts for compatibility making it a bit bloated. In this EFI build the DSDT, kext patches are only few resulting to a much faster, reliable and stable boot.
+You have to add other kexts yourselves to suit your macOS experience.
 
 ***For SONOMA Builds***
 
