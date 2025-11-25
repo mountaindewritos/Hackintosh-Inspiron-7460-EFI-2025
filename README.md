@@ -1,4 +1,4 @@
-**Dell Inspiron 7460 Sonoma, Sequioa and Tahoe (Pending OCLP new vversion) EFI with Unsupported BCM Wifi cards**
+**Dell Inspiron 7460 Sonoma, Sequioa and Tahoe (Pending OCLP new version) EFI with Unsupported BCM Wifi cards**
 
 _For Sequioa installations and later, choose the Tahoe EFI as it has a Broadcom legacy card patchfix. For Sonoma 14.3.1 and below choose the Sonoma EFI (v1.2.0)._
 
